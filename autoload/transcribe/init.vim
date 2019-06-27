@@ -42,7 +42,7 @@ endfunction
 
 function! s:init_options()
   call s:init_option('transcribe_speed_inc', 0.1)
-  call s:init_option('transcribe_seek_inc', 15)
+  call s:init_option('transcribe_seek_inc', 3)
   call s:init_option('transcribe_localleader', 0)
 endfunction
 
